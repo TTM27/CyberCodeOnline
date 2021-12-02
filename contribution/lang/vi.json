@@ -32,7 +32,7 @@
  	 	 	 	"eng": "You can purchase global buff items here"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "Bạn cần đạt Cấp 5 để mua Unit",
+ 	 	 	 	"trans": "Bạn cần đạt Cấp 3 trở lên để mua Unit",
  	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	}
  	 	},
@@ -342,12 +342,12 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Thu thập 3 [Mảnh Vỡ Chìa Khóa] từ các [Phó Bản] trong 3 Khu vực ở trạm trước, đến [Bảng Điều Khiển] ở Trung Tâm TP [Hub] để ghép thành [Chìa Khóa] cho khu vực tiếp theo",
+ 	 	 	 	 	"trans": "Thu thập 3 [Mảnh Chìa Khóa] từ các [Phó Bản] trong 3 Khu vực ở trạm trước, đến [Bảng Điều Khiển] ở Trung Tâm TP [Hub] để ghép thành [Chìa Khóa] cho khu vực tiếp theo",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Bắt đầu ỏ Khu vực Cấp 1 - 10",
+ 	 	 	 	"trans": "Bắt đầu ở Khu vực Cấp 1 - 10",
  	 	 	 	"eng": "Start with level 1 to 10 area"
  	 	 	},
  	 	 	"toZone": {
@@ -481,7 +481,7 @@
  	 	},
  	 	"upgradeModule": {
  	 	 	"name": {
- 	 	 	 	"trans": "Mô-đun",
+ 	 	 	 	"trans": "Mô-đun nâng cấp",
  	 	 	 	"eng": "upgrade module"
  	 	 	}
  	 	},
@@ -809,7 +809,7 @@
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Một thùng chứa được gia cố với khóa sinh trắc học, có thể chứa các vật dụng quan trọng bên trong.\n       May mắn thay, vi xử lý trên bo mạch đã lỗi thời, truy cập [Bảng Điều Khiển] để mở khóa",
+ 	 	 	 	"trans": "Một thùng chứa được gia cố với khóa sinh trắc học, có thể chứa các vật dụng HIếm bên trong.\n       May mắn thay, vi xử lý trên bo mạch đã lỗi thời, truy cập [Bảng Điều Khiển] để mở khóa",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -819,7 +819,7 @@
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Một thùng chứa được gia cố với khóa sinh trắc học, có thể chứa các vật dụng quan trọng bên trong.\n       May mắn thay, vi xử lý trên bo mạch đã lỗi thời, truy cập [Bảng Điều Khiển] để mở khóa",
+ 	 	 	 	"trans": "Một thùng chứa được gia cố với khóa sinh trắc học, có thể chứa các vật dụng Huyền Thoại bên trong.\n       May mắn thay, vi xử lý trên bo mạch đã lỗi thời, truy cập [Bảng Điều Khiển] để mở khóa",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -1361,7 +1361,7 @@
  	 	 	"eng": "Send Invite To Chat"
  	 	},
  	 	"leaveDungeon": {
- 	 	 	"trans": "Rời ngục tối",
+ 	 	 	"trans": "Rời Phó Bản",
  	 	 	"eng": "Leave dungeon"
  	 	}
  	},
@@ -1374,7 +1374,7 @@
  	 	 	"eng": "${segmentDisplayName} Secret Key"
  	 	},
  	 	"unlockVerb": {
- 	 	 	"trans": "Ghép",
+ 	 	 	"trans": "Ghép mảnh",
  	 	 	"eng": "brute-force"
  	 	},
  	 	"bruteForce": {
@@ -1394,7 +1394,7 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "Tìm 3 [Mảnh Vỡ Chìa Khóa] khác nhau từ mỗi Phó bản ở ${segmentDisplayName}.\r\n                Sau đó ghép thành chìa khóa để đến khu vực tiếp theo.\r\n                Ghép chìa khóa tại [Bảng Điều Khiển] ở Trung Tâm Thành Phố [HUB]",
+ 	 	 	"trans": "Tìm 3 [Mảnh Chìa Khóa] khác nhau từ mỗi Phó bản ở ${segmentDisplayName}.\r\n                Sau đó ghép thành chìa khóa để đến khu vực tiếp theo.\r\n                Ghép chìa khóa tại [Bảng Điều Khiển] ở Trung Tâm Thành Phố [HUB]",
  	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName}.\r\n                These are used to create the key to the next zone.\r\n                To craft the key, go to Terminal in [HUB]",
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -1414,7 +1414,7 @@
  	 	"random": {
  	 	 	"clearChallengeDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Dũng Sĩ Diệt Quỷ",
+ 	 	 	 	 	"trans": "Dũng Sĩ diệt thù",
  	 	 	 	 	"eng": "dungeon warrior"
  	 	 	 	}
  	 	 	},
@@ -1491,7 +1491,7 @@
  	 	 	 	"eng": "Open Crate"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Mở 4 thùng trong ngục tối để có được chúng những loot ngọt ngào!",
+ 	 	 	 	"trans": "Mở 4 thùng trong ngục tối để có được chúng những loot xịn sò!",
  	 	 	 	"eng": "Open 4 crates in dungeon to get them sweet loots!"
  	 	 	}
  	 	},
@@ -1529,7 +1529,7 @@
  	"ui": {
  	 	"header": {
  	 	 	"playerOnline": {
- 	 	 	 	"trans": "Người Chơi Online",
+ 	 	 	 	"trans": "Người Chơi đang Online",
  	 	 	 	"eng": "players online"
  	 	 	},
  	 	 	"online": {
@@ -1722,7 +1722,7 @@
  	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
  	 	 	},
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "Bạn cần đạt Cấp 4 để vào Chợ",
+ 	 	 	 	"trans": "Bạn cần đạt Cấp 4 trở lên để vào Chợ",
  	 	 	 	"eng": "You need to be at least level 4 to access the market"
  	 	 	}
  	 	},
@@ -1819,7 +1819,7 @@
  	 	 	 	"eng": "save"
  	 	 	},
  	 	 	"langGithub": {
- 	 	 	 	"trans": "Trợ giúp dịch trò chơi",
+ 	 	 	 	"trans": "Hỗ trợ dịch trò chơi này",
  	 	 	 	"eng": "Help with translating the game"
  	 	 	},
  	 	 	"receiveClanNotification": {
@@ -1858,7 +1858,7 @@
  	 	 	},
  	 	 	"blockGifts": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Tắt nhận quà",
+ 	 	 	 	 	"trans": "Tắt thông báo nhận quà",
  	 	 	 	 	"eng": "Disable receiving gifts"
  	 	 	 	}
  	 	 	},
@@ -1901,7 +1901,7 @@
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "NGUY KỊCH",
+ 	 	 	 	"trans": "Tử Vong",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
@@ -2025,7 +2025,7 @@
  	 	 	 	"eng": "Premium Shop"
  	 	 	},
  	 	 	"friendList": {
- 	 	 	 	"trans": "Danh Sách Bạn",
+ 	 	 	 	"trans": "Danh Sách Bạn Bè",
  	 	 	 	"eng": "Friend List"
  	 	 	},
  	 	 	"leaderBoard": {
@@ -2552,7 +2552,7 @@
  	 	},
  	 	"landing": {
  	 	 	"subtile": {
- 	 	 	 	"trans": "MMORPG dựa trên văn bản CyberPunk",
+ 	 	 	 	"trans": "MMORPG văn bản phong cách CyberPunk",
  	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
  	 	 	},
  	 	 	"description1": {
@@ -2613,17 +2613,17 @@
  	 	 	},
  	 	 	"hasRefererCheckbox": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Chỉ kiểm tra nếu bạn có một nhà giới thiệu (tùy chọn)",
+ 	 	 	 	 	"trans": "Chỉ nhấn vào nếu bạn có người giới thiệu (Không bắt buộc)",
  	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
  	 	 	 	},
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Tôi có một nhà giới thiệu",
+ 	 	 	 	 	"trans": "Tôi có một người giới thiệu",
  	 	 	 	 	"eng": "I have a referer"
  	 	 	 	}
  	 	 	},
  	 	 	"refererModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Ai giới thiệu bạn?",
+ 	 	 	 	 	"trans": "Ai giới thiệu trò chơi này với bạn bạn?",
  	 	 	 	 	"eng": "Who referred you?"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2641,7 +2641,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"welcomeMsg": {
- 	 	 	 	"trans": "MMORPG dựa trên văn bản tốt nhất",
+ 	 	 	 	"trans": "MMORPG văn bản tốt nhất",
  	 	 	 	"eng": "the best text-based mmorpg"
  	 	 	},
  	 	 	"confirm": {
@@ -2721,7 +2721,7 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Tăng tốc thế giới sẽ bỏ qua thời gian chờ đợi cho tất cả người chơi thực hiện nhiệm vụ AFK",
+ 	 	 	 	 	"trans": "Tăng tốc thế giới sẽ bỏ qua thời gian chờ đợi cho tất cả người chơi đang thực hiện nhiệm vụ AFK",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	}
@@ -2754,7 +2754,7 @@
  	 	 	 	},
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Tấn công mạng đang diễn ra",
+ 	 	 	 	 	 	"trans": "Tấn công Mạng Lưới đang diễn ra",
  	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
@@ -2892,21 +2892,21 @@
  	 	"communityItemLore": {
  	 	 	"noLoreButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Tạo truyền thuyết",
+ 	 	 	 	 	"trans": "Tạo một câu chuyện",
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Không có truyền thuyết cộng đồng cho mặt hàng này, hãy là người đầu tiên tạo một cho nó.",
+ 	 	 	 	 	"trans": "Không có câu chuyện cộng đồng cho mặt hàng này, hãy là người đầu tiên tạo một cho nó.",
  	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Truyền thuyết cộng đồng",
+ 	 	 	 	 	"trans": "câu chuyện cộng đồng",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Mở truyền thuyết cộng đồng cho mặt hàng này",
+ 	 	 	 	 	"trans": "Mở câu chuyện cộng đồng cho mặt hàng này",
  	 	 	 	 	"eng": "Open the community lore for this item"
  	 	 	 	}
  	 	 	},
@@ -3069,7 +3069,7 @@
  	 	 	 	"eng": "Health"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Tăng máu tối đa",
+ 	 	 	 	"trans": "Tăng lượng máu tối đa",
  	 	 	 	"eng": "Increases maximum health"
  	 	 	}
  	 	},
@@ -3171,7 +3171,7 @@
  	 	},
  	 	"bargain": {
  	 	 	"name": {
- 	 	 	 	"trans": "Giá cả",
+ 	 	 	 	"trans": "Thương Lượng",
  	 	 	 	"eng": "Bargain"
  	 	 	},
  	 	 	"description": {
@@ -3547,7 +3547,7 @@
  	 	 	},
  	 	 	"closeButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Gần",
+ 	 	 	 	 	"trans": "Đóng",
  	 	 	 	 	"eng": "Close"
  	 	 	 	}
  	 	 	}
@@ -3558,7 +3558,7 @@
  	 	 	 	"eng": "Please agree to the rules below before start chatting"
  	 	 	},
  	 	 	"rule1": {
- 	 	 	 	"trans": "Không có spam hoặc thông điệp vô nghĩa.",
+ 	 	 	 	"trans": "Đừng spam hoặc gửi câu từ vô nghĩa.",
  	 	 	 	"eng": "No spamming or meaningless message."
  	 	 	},
  	 	 	"rule2": {
@@ -3608,7 +3608,7 @@
  	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
- 	 	 	 	"trans": "Xem Gang",
+ 	 	 	 	"trans": "Xem Tập Đoàn",
  	 	 	 	"eng": "View Gang"
  	 	 	},
  	 	 	"sendGift": {
@@ -3790,7 +3790,7 @@
  	 	 	 	"eng": "You can contribute to the lore of items too by editing the config file in our GitHub page."
  	 	 	},
  	 	 	"confirm": {
- 	 	 	 	"trans": "Mở GitHub",
+ 	 	 	 	"trans": "Mở trang GitHub",
  	 	 	 	"eng": "Go to GitHub"
  	 	 	},
  	 	 	"cancel": {
@@ -3828,7 +3828,7 @@
  	 	 	 	"eng": "Discard"
  	 	 	},
  	 	 	"warning": {
- 	 	 	 	"trans": "Các mục / mục trên sẽ được loại bỏ và không được đặt vào kho của bạn. Hành động này là không thể đảo ngược.",
+ 	 	 	 	"trans": "Các mục trên sẽ được loại bỏ và không được đặt vào kho của bạn. Hành động này là không thể đảo ngược.",
  	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
  	 	 	}
  	 	},
@@ -3846,7 +3846,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"unit"
  	 	 	 	],
- 	 	 	 	"trans": "Đơn vị ${unit}",
+ 	 	 	 	"trans": "Unit ${unit}",
  	 	 	 	"eng": "${unit} Unit"
  	 	 	},
  	 	 	"description": {
@@ -3854,7 +3854,7 @@
  	 	 	 	 	"unit",
  	 	 	 	 	"bonus"
  	 	 	 	],
- 	 	 	 	"trans": "Receive ${unit} Unit",
+ 	 	 	 	"trans": "Nhận được ${unit} Unit",
  	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
  	 	 	}
  	 	},
@@ -3872,7 +3872,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"unit"
  	 	 	 	],
- 	 	 	 	"trans": "Đơn vị ${unit}",
+ 	 	 	 	"trans": "Unit ${unit}",
  	 	 	 	"eng": "${unit} Unit"
  	 	 	},
  	 	 	"description": {
@@ -3880,7 +3880,7 @@
  	 	 	 	 	"unit",
  	 	 	 	 	"bonus"
  	 	 	 	],
- 	 	 	 	"trans": "Nhận đơn vị ${unit} (${bonus} tiền thưởng)",
+ 	 	 	 	"trans": "Nhận Unit ${unit} (${bonus} tiền thưởng)",
  	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
  	 	 	}
  	 	},
@@ -3993,7 +3993,7 @@
  	 	 	 	"likerName",
  	 	 	 	"amount"
  	 	 	],
- 	 	 	"trans": "${likerName} đã gửi cho bạn các khía cạnh ${amount} cho Bỏ qua của bạn",
+ 	 	 	"trans": "${likerName} rất cảm kích số ${amount} tăng tốc của bạn",
  	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	},
@@ -4121,7 +4121,7 @@
  	 	 	 	 	"eng": "Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "Tiêu đề đóng góp \"Khoai tây Coobernetic\"",
+ 	 	 	 	 	"trans": "Tiêu đề đóng góp \"Khoai tây Cybernetic\"",
  	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
  	 	 	 	},
  	 	 	 	"3": {
@@ -4129,11 +4129,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Trở thành một củ khoai tây từ tính",
+ 	 	 	 	 	"trans": "Trở thành một củ khoai tây Cybernetic",
  	 	 	 	 	"eng": "Become a Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "Khung trò chuyện khoai tây (với hình ảnh động)",
+ 	 	 	 	 	"trans": "Khung trò chuyện củ khoai tây (với hình ảnh động)",
  	 	 	 	 	"eng": "Potato chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"6": {
@@ -4189,7 +4189,7 @@
  	 	 	"eng": "upper armor"
  	 	},
  	 	"lowerArmor": {
- 	 	 	"trans": "Giáp thấp hơn",
+ 	 	 	"trans": "Giáp dưới",
  	 	 	"eng": "lower armor"
  	 	},
  	 	"boots": {
@@ -4203,7 +4203,7 @@
  	},
  	"dungeonList": {
  	 	"newbieTip": {
- 	 	 	"trans": "Bạn sẽ không chữa lành sau mỗi cuộc chiến trong ngục tối, hãy nhớ sử dụng các vật phẩm chữa bệnh của bạn.",
+ 	 	 	"trans": "Bạn sẽ không hồi máu sau mỗi cuộc chiến trong phó bản, hãy nhớ sử dụng các vật phẩm chữa lành của bạn.",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
@@ -4218,7 +4218,7 @@
  	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
  	 	 	},
  	 	 	"content3": {
- 	 	 	 	"trans": "Nếu bạn có một số thay đổi dự phòng, nó sẽ rất hữu ích nếu bạn có thể quyên góp để giúp đỡ tiếp tục hỗ trợ và phát triển của trò chơi.",
+ 	 	 	 	"trans": "Nếu bạn có một số tiền nho nhỏ thì nó sẽ rất hữu ích nếu bạn có thể quyên góp để giúp đỡ tiếp tục hỗ trợ và phát triển của trò chơi.",
  	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
  	 	 	},
  	 	 	"content4": {
@@ -4297,7 +4297,7 @@
  	 	 	 	 	"eng": "Join Dungeon"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Tham gia ngục tối của người chơi khác",
+ 	 	 	 	 	"trans": "Tham gia phó bản của người chơi khác",
  	 	 	 	 	"eng": "Join other player's dungeon"
  	 	 	 	}
  	 	 	},
